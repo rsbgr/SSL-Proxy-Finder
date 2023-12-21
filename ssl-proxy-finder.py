@@ -59,7 +59,7 @@ def checkresult(response, elptime):
         status = headers[1]
         if status == '200':
             if elptime < 3:
-                print('Is ast!')
+                print('Is Fast!')
             else:
                 print('Is Good!')
         elif status == '400':
